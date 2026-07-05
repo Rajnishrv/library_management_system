@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const REST_API_BASE_URL = 'http://localhost:8081/member';
+const REST_API_BASE_URL = 'http://localhost/api/member';
 
 // to get all members from the database
 export const listMembers = () => axios.get(REST_API_BASE_URL + '/'+ 'members');
